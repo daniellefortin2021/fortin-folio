@@ -11,12 +11,15 @@ function About() {
         <div>
             <div>
                 <h3>Web Design</h3>
+                <p>I have over 5 years of experience managaing websites and one year of experience designing and developing websites for international non-profit organizations.</p>
             </div>
             <div>
                 <h3>Digital Media</h3>
+                <p>I am an experienced digital media strategist with a strong eye and interest in analytics and strategic communications.</p>
             </div>
             <div>
                 <h3>Brand Management</h3>
+                <p>I have experience in.....</p>
             </div>
         </div>
       </div>
