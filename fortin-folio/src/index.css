@@ -1,21 +1,82 @@
 main {
 	margin: 0 auto;
-	max-width: 90%;
-  padding: 50px 30px;
 }
 
 * {
   box-sizing: border-box;
 }
 
-html,
-body {
-  min-height: 100%;
+h1{
+  
+  font-family: pragmatica-extended, sans-serif;
+  font-weight: 900;
+  font-style: normal; 
+}
+
+h2{
+  font-family: pragmatica-extended, sans-seri;
+  font-weight: 400;
+  font-style: normal;
+}
+body{
+  font-family: sculpin, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+
+}
+
+img{
+  width: 50%;
+  object-fit: contain;
+
+}
+
+li{
+  list-style: none;
+  padding: 5px;
+}
+li:hover{
+  font-weight: bold;
+}
+
+.nav{
+  border-top: 2px solid black;
+  justify-content: center;
+
+}
+
+.home{
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  border: 2px solid black;
+  text-align: center;
+}
+
+.about{
+  text-align: center;
+  padding: 5% 20%;
+}
+
+.skills{
+  padding-top: 5%;
+}
+
+button{
+  border: 2px solid black;
+  border-radius: 15%;
+  background-color: white;
+  padding: 10px;
+  width: 20%
+}
+
+button:hover{
+  background: none;
 }
 
 .flex-row {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
 }
 
 .space-between {
@@ -26,6 +87,7 @@ body {
   justify-content: flex-end;
 }
 
-.nav{
-  border-bottom: solid, 2px, black;
+.footer{
+  border-top: solid, 2px, black;
+  text-align: center;
 }
