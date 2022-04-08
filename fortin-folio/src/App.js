@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 import './App.css';
 import Footer from './components/Footer';
+import Portfolio from './components/Portfolio';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <main>
         <Home></Home>
         <About></About>
+        <Portfolio></Portfolio>
       </main>
       <Footer></Footer>
     </div>
