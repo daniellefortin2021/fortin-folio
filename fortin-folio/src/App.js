@@ -1,25 +1,40 @@
-import React from 'react';
-import About from './components/About';
-import Nav from './components/Nav';
-import Home from './components/Home';
+import React, {useState} from 'react';
+import About from './components/pages/About';
+import NavTabs from './components/Nav/NavTabs'
+import Home from './components/pages/Home';
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 import './App.css';
 import Footer from './components/Footer';
-import Portfolio from './components/Portfolio';
+import Portfolio from './components/pages/Portfolio';
 
 
 function App() {
+
+  const [currentPage, setCurrentPage] = useState ('Home');
+
+  const renderPage = () => {
+    if (currentPage === 'Home') {
+      return <Home />;
+    }
+    if (currentPage === 'About') {
+      return <About />;
+    }
+    if (currentPage === 'Portfolio') {
+      return <Portfolio />;
+    }
+  };
+
+  const handlePageChange = (page) => setCurrentPage(page);
+
   return (
-    <div>
-      <Nav></Nav>
+      <div>
+      <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       <main>
-        <Home></Home>
-        <About></About>
-        <Portfolio></Portfolio>
+        {renderPage()}
       </main>
       <Footer></Footer>
-    </div>
+    </div >
   );
 }
 
