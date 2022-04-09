@@ -43,7 +43,10 @@ li:hover{
 .nav{
   border-top: 2px solid black;
   justify-content: center;
+}
 
+.nav-link{
+  color: black
 }
 
 .home{
@@ -51,11 +54,13 @@ li:hover{
   background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
   border: 2px solid black;
   text-align: center;
+  height: 100vh;
 }
 
 .about{
   text-align: center;
   padding: 5% 20%;
+  height: 100vh;
 }
 
 .skills{
@@ -68,13 +73,7 @@ li:hover{
   text-align: center;
   border: solid 2px black;
   padding: 5% 20%;
-}
-
-.featured{
-  border: solid 2px black;
-  border-radius: 15px;
-  width: 50%;
-  background-color: white;
+  height: 100vh;
 }
 
 .card-col{
