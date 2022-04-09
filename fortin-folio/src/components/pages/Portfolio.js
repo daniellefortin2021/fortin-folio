@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Project from '../Projects';
 
-import { Row, Col, Card } from 'react-bootstrap';
+import { Row } from 'react-bootstrap';
 
 
 function Portfolio (props) {
