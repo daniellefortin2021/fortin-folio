@@ -88,6 +88,10 @@ button:hover{
   background: none;
 }
 
+.portfolio-card{
+  border: 2px solid black;
+}
+
 .flex-row {
   display: flex;
   flex-wrap: wrap;

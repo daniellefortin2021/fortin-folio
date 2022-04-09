@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Row, Col } from 'react-bootstrap';
+import { Row, Col, Card } from 'react-bootstrap';
 
 
 function Portfolio () {
@@ -18,7 +18,15 @@ function Portfolio () {
             </div>
             <Row>
                 <Col>
-                    
+                    <Card class="portfolio-card">
+                        <Card.Img variant="top" src="../assets/fetch-homepage.png"/>
+                        <Card.Body>
+                            <Card.Title>Fetch</Card.Title>
+                            <Card.Text>
+                                website and brand design
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
                 </Col>
                 <Col>BoredAf</Col>
                 <Col>Portfolio 1</Col>
