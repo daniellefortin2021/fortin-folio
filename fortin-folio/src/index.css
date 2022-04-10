@@ -96,7 +96,6 @@ li{
   background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
   border: 2px solid black;
   padding: 5% 20%;
-
 }
 
 .resume{
@@ -112,6 +111,26 @@ li{
   color: #94bbe9;
 }
 
+#form{
+  border: 2px solid black;
+  padding: 3%;
+  background: white;
+  width: 65%;
+}
+
+#form-label{
+  font-weight: bold;
+}
+
+#form-input{
+  border: 2px solid black;
+  margin-bottom: 10px;
+}
+
+.form-button{
+  padding-top: 1%;
+}
+
 #button{
   border: 2px solid black;
   background-color: white;
@@ -121,7 +140,7 @@ li{
 }
 
 #button:hover{
-  background: none;
+  background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
 }
 
 .flex-row {
