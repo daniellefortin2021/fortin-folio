@@ -7,7 +7,6 @@ import Contact from './components/pages/Contact'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 import './App.css';
-import Footer from './components/Footer';
 import Portfolio from './components/pages/Portfolio';
 
 
@@ -40,8 +39,13 @@ function App() {
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       <main>
         {renderPage()}
+        <footer>
+        <div>
+            <div><a className="footer-link" href="https://github.com/daniellefortin2021">GitHub</a>
+            <a className="footer-link" href="https://www.linkedin.com/in/danielle-fortin-2899b266/">LinkedIn</a></div>
+        </div>
+      </footer>
       </main>
-      <Footer></Footer>
     </div >
   );
 }

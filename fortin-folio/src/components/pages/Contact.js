@@ -28,7 +28,7 @@ function Contact() {
         console.log(errorMessage);
     }
 
-    function handelSubmit(e) {
+    function handleSubmit(e) {
         e.preventDefault();
         console.log(formState);
     }
@@ -36,7 +36,7 @@ function Contact() {
     return (
         <div className="header">
             <h2>Let's Keep in Touch!</h2>
-            <Form id="form" onSubmit={handelSubmit}> 
+            <Form id="form" onSubmit={handleSubmit}> 
                 <Form.Group>
                     <Form.Label id="form-label">Name</Form.Label>
                     <Form.Control id="form-input" type="name" placeholder="Your Name" defaultValue={name} onChange={handleChange}/>

@@ -36,6 +36,11 @@ li{
   padding: 5px;
 }
 
+a{
+  text-decoration: none;
+  color: black
+}
+
 .nav{
   border-top: 2px solid black;
   justify-content: center;
@@ -111,11 +116,11 @@ li{
   color: #94bbe9;
 }
 
-#form{
+form{
   border: 2px solid black;
   padding: 3%;
   background: white;
-  width: 65%;
+  
 }
 
 #form-label{
@@ -128,7 +133,24 @@ li{
 }
 
 .form-button{
-  padding-top: 1%;
+  padding-top: .5%;
+}
+
+footer{
+  text-align: center;
+  padding: 1%;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+.footer-link{
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  padding: 1%
+}
+
+.footer-link:hover{
+  color: #94bbe9;
 }
 
 #button{
