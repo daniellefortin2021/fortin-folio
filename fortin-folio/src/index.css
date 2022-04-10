@@ -36,10 +36,6 @@ li{
   padding: 5px;
 }
 
-li:hover{
-  font-weight: bold;
-}
-
 .nav{
   border-top: 2px solid black;
   justify-content: center;
@@ -92,6 +88,28 @@ li:hover{
 
 #card-text{
   padding-top: 15px;
+}
+
+.resume-header{
+  text-align: center;
+  background: rgb(238,174,202);
+  background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  border: 2px solid black;
+  padding: 5% 20%;
+
+}
+
+.resume{
+  padding: 2% 10%;
+}
+
+#resume-link{
+  text-decoration: none;
+  color: #eeaeca;
+}
+
+#resume-link:hover{
+  color: #94bbe9;
 }
 
 button{

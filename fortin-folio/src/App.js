@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import About from './components/pages/About';
 import NavTabs from './components/Nav/NavTabs'
 import Home from './components/pages/Home';
+import Resume from './components/pages/Resume';
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 import './App.css';
@@ -22,6 +23,9 @@ function App() {
     }
     if (currentPage === 'Portfolio') {
       return <Portfolio />;
+    }
+    if (currentPage === 'Resume') {
+      return <Resume />;
     }
   };
 
