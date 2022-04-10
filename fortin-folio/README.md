@@ -1,4 +1,5 @@
 # Danielle Fortin | React Portfolio
+This is my single-page portfolio using React components and conditional rendering.
 
 ## Table of Contents
 * Languages
@@ -6,9 +7,9 @@
 * License
 
 ## Languages
+This app was built with React, JSX, CSS, and Bootstrap.
 
 ## Preview
-![react portfolio homepage screenshot] (../assets/react-portfolio.png)
 https://daniellefortin2021.github.io/fortin-folio/
 
 ## License
