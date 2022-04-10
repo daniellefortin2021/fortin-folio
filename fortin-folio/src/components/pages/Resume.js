@@ -5,7 +5,7 @@ import { Row, Col } from 'react-bootstrap';
 function Resume() {
     return (
         <section>
-            <div className="resume-header">
+            <div className="header">
                 <h2>Resume</h2>
             </div>
             <div>

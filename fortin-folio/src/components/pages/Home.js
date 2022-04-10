@@ -11,7 +11,7 @@ function Home () {
             <Col>
                 <h1> Danielle Fortin</h1>
                 <h3>web design  digital marketing  brand development</h3>
-                <button>Learn more</button>
+                <button id="button">Learn more</button>
             </Col>
         </Row>
     );

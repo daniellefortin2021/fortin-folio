@@ -3,6 +3,7 @@ import About from './components/pages/About';
 import NavTabs from './components/Nav/NavTabs'
 import Home from './components/pages/Home';
 import Resume from './components/pages/Resume';
+import Contact from './components/pages/Contact'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 import './App.css';
@@ -26,6 +27,9 @@ function App() {
     }
     if (currentPage === 'Resume') {
       return <Resume />;
+    }
+    if (currentPage === 'Contact') {
+      return <Contact />
     }
   };
 
