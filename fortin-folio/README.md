@@ -8,7 +8,7 @@
 ## Languages
 
 ## Preview
-![react portfolio homepage screenshot] (./assets/react-portfolio.png)
+![react portfolio homepage screenshot] (../assets/react-portfolio.png)
 https://daniellefortin2021.github.io/fortin-folio/
 
 ## License
