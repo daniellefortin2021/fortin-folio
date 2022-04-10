@@ -8,16 +8,25 @@ main {
 
 h1{
   
-  font-family: pragmatica-extended, sans-serif;
+  font-family: zenon, sans-serif;
   font-weight: 900;
   font-style: normal; 
 }
 
+#title{
+  font-size: 80px;
+}
+
 h2{
-  font-family: pragmatica-extended, sans-serif;
+  font-family: zenon, sans-serif;
   font-weight: 400;
   font-style: normal;
 }
+
+h3{
+  font-family: zenon, sans-serif;
+}
+
 body{
   font-family: sculpin, sans-serif;
   font-weight: 300;
@@ -46,16 +55,45 @@ a{
   justify-content: center;
 }
 
-.nav-link{
+#nav-tab{
   color: black
+}
+
+#nav-tab:hover{
+  color: #eeaeca;
 }
 
 .home{
   background: rgb(238,174,202);
-  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  background: linear-gradient(137deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);  
   border: 2px solid black;
   text-align: center;
   height: 100vh;
+}
+
+.home-images{
+  position: relative;
+}
+
+.headshot{
+  z-index: auto;
+  position: relative;
+}
+
+.home-daisy-1{
+  z-index: 1;
+  width: 15%;
+  position: absolute;
+  top: 75%;
+  left: 55%
+}
+
+.home-daisy-2{
+  z-index: 1;
+  width: 8%;
+  position: absolute;
+  top: -22%;
+  left: 82%
 }
 
 .about{
@@ -70,7 +108,7 @@ a{
 
 .portfolio{
   background: rgb(238,174,202);
-  background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  background: linear-gradient(137deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);  
   text-align: center;
   border: solid 2px black;
   padding: 5% 20%;
@@ -98,7 +136,7 @@ a{
 .header{
   text-align: center;
   background: rgb(238,174,202);
-  background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  background: linear-gradient(137deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);  
   border: 2px solid black;
   padding: 5% 20%;
 }
@@ -162,7 +200,8 @@ footer{
 }
 
 #button:hover{
-  background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  background: linear-gradient(137deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+
 }
 
 .flex-row {
