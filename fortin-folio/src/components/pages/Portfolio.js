@@ -3,6 +3,7 @@ import Project from '../Projects';
 
 import { Row } from 'react-bootstrap';
 
+import jsiImage from '../../images/JSI-home-page.jpeg';
 
 function Portfolio (props) {
 
@@ -11,7 +12,7 @@ function Portfolio (props) {
             title: 'JSI',
             description: 'website and social media manager | 2019 - current',
             link: 'https://jsi.com',
-            image: '../assets/JSI-home-page.jpeg'
+            image: jsiImage
         },
         {
             title: 'Fetch',
@@ -35,7 +36,7 @@ function Portfolio (props) {
             title: 'Empowered to Educate',
             description: 'brand and website design',
             link: 'https://www.empoweredtoeducate.org/',
-            image: '../assets/empowered-home-page.jpeg'
+            image: './assets/empowered-home-page.jpeg'
         }
     ];
 
