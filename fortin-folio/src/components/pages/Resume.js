@@ -69,7 +69,7 @@ function Resume() {
                     </Col>
                 </Row>
             </div>
-            <div>
+            <div className="resume-section">
                 <Row className="resume">
                     <Col sm={3}>
                     <h4>International Coordinator</h4>

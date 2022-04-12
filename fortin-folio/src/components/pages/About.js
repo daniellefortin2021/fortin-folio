@@ -22,7 +22,7 @@ function About() {
                     </Col>
                     <Col>
                         <h3>Brand Management</h3>
-                        <p>I have experience in.....</p>
+                        <p>I have a strong eye in design and brand management across multiple platforms for international audiences.</p>
                     </Col>
                 </Row>
 

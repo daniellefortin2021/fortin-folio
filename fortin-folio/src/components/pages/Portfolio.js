@@ -37,9 +37,11 @@ function Portfolio (props) {
 
 
     return (
-        <section className="portfolio">
-            <h2>Portfolio</h2>
-            <Row>
+        <section>
+            <div className="header">
+                <h2>Portfolio</h2>
+            </div>
+            <Row className="portfolio">
 
                 {projects.map((projects) => (
                     <Project 
@@ -48,41 +50,6 @@ function Portfolio (props) {
                 ))}
                
             </Row>
-            {/* <Row>
-                <Col>
-                    <Card className="portfolio-card">
-                        <Card.Img variant="top" src="../assets/fetch-homepage.png"/>
-                        <Card.Body>
-                            <Card.Title>Fetch</Card.Title>
-                            <Card.Text>
-                                website and brand design
-                            </Card.Text>
-                        </Card.Body>
-                    </Card>
-                </Col>
-                <Col>
-                    <Card className="portfolio-card">
-                        <Card.Img variant="top" src="../assets/bored-af.jpeg"/>
-                        <Card.Body>
-                            <Card.Title>BoredAF</Card.Title>
-                            <Card.Text>
-                                website and brand design
-                            </Card.Text>
-                        </Card.Body>
-                    </Card>
-                </Col>
-                <Col>
-                    <Card className="portfolio-card">
-                        <Card.Img variant="top" src="../assets/bantwana-home-page.jpeg"/>
-                        <Card.Body>
-                            <Card.Title>Bantwana Initiative</Card.Title>
-                            <Card.Text>
-                                strategic communications and website management
-                            </Card.Text>
-                        </Card.Body>
-                    </Card>
-                </Col>
-            </Row> */}
         </section>
     );
 }

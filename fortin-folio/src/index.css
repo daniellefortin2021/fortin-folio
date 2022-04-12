@@ -6,6 +6,10 @@ main {
   box-sizing: border-box;
 }
 
+html, body #root {
+  height: 100%
+}
+
 h1{
   
   font-family: zenon, sans-serif;
@@ -105,20 +109,19 @@ a{
 .skills{
   padding-top: 5%;
   text-align: center;
+  border-bottom: 2px solid black;
 }
 
 .portfolio{
-  background: rgb(238,174,202);
-  background: linear-gradient(137deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);  
   text-align: center;
-  border: solid 2px black;
-  padding: 5% 20%;
-  height: 100vh;
+  padding: 2%;
+  border-bottom: 2px solid black;
 }
 
 .card-col{
   padding: 5%;
 }
+
 
 #card-custom{
   border: solid 2px black;
@@ -127,7 +130,9 @@ a{
 }
 
 #card-custom:hover{
-  border: 4px ;
+  background: rgb(238,174,202);
+  background: linear-gradient(137deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);  
+  color: white;
 }
 
 #card-text{
@@ -145,6 +150,10 @@ a{
 
 .resume{
   padding: 2% 10%;
+}
+
+.resume-section{
+  border-bottom: 2px solid black;
 }
 
 #resume-link{
@@ -181,6 +190,7 @@ footer{
   padding: 1%;
   border-bottom: 2px solid black;
 }
+
 .footer-link{
   text-decoration: none;
   font-weight: bold;
@@ -219,7 +229,3 @@ footer{
   justify-content: flex-end;
 }
 
-.footer{
-  border-bottom: solid 2px black;
-  text-align: center;
-}
