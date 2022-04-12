@@ -59,37 +59,6 @@ function Contact() {
             </form>
         </section>
     )
-
-    // return (
-    //     <div className="header">
-    //         <h2>Let's Keep in Touch!</h2>
-    //         <Form id="form" onSubmit={handleSubmit}> 
-    //             <Form.Group>
-    //                 <Form.Label id="form-label">Name</Form.Label>
-    //                 <Form.Control id="form-input" type="name" placeholder="Your Name" defaultValue={name} onChange={handleChange}/>
-    //             </Form.Group>
-    //             <Form.Group>
-    //                 <Form.Label id="form-label">Email address</Form.Label>
-    //                 <Form.Control id="form-input" type="email" placeholder="Your email" defaultValue={email} onChange={handleChange}/>
-    //             </Form.Group>
-    //             <Form.Group>
-    //                 <Form.Label id="form-label">Message</Form.Label>
-    //                 <Form.Control id="form-input" as="textarea" rows={3} type="message" placeholder="Message" defaultValue={message} onChange={handleChange} />
-    //             </Form.Group>
-    //             {errorMessage && (
-    //                 <div>
-    //                     <p className="error-text">{errorMessage}</p>
-    //                 </div>
-    //             )}
-    //             <div className="form-button">
-    //                 <Button id="button" variant="primary" type="submit">
-    //                     Submit
-    //                 </Button>
-    //             </div>
-
-    //         </Form>
-    //     </div>
-    // )
 };
 
 export default Contact;
