@@ -16,21 +16,25 @@ function Portfolio (props) {
         {
             title: 'Fetch',
             description: 'website and brand design',
-            image: ',,/assets/fetch-homepage.png'
+            link: 'https://intense-crag-43217.herokuapp.com/',
+            image: '../assets/fetch-homepage.png'
         },
         {
             title: 'BoredAF',
             description: 'website and brand design',
+            link: 'https://zsvoboda87.github.io/Bored-AF/',
             image: '../assets/fetch-homepage.png'
         },
         {
             title: 'Bantwana Initiative',
             description: 'strategic communications and web management',
+            link: 'www.bantwana.org',
             image: '../assets/bantwana-home-page.jpeg'
         },
         {
             title: 'Empowered to Educate',
             description: 'brand and website design',
+            link: 'https://www.empoweredtoeducate.org/',
             image: '../assets/empowered-home-page.jpeg'
         }
     ];
@@ -46,7 +50,9 @@ function Portfolio (props) {
                 {projects.map((projects) => (
                     <Project 
                     title={projects.title}
-                    description={projects.description}/>
+                    description={projects.description}
+                    image={projects.image}
+                    link={projects.link}/>
                 ))}
                
             </Row>
