@@ -229,3 +229,22 @@ footer{
   justify-content: flex-end;
 }
 
+ /* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+ .title{ font-size: 50px;}
+
+ .flex-row{ flex-direction: column;}
+
+ .portfolio{
+   flex-direction: column;
+ }
+}
+
+ /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+
+  .headshot, .home-daisy-1, .home-daisy-2{
+    display: none;
+  }
+
+}
