@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/fortin-folio/static/css/main.e75782a1.css",
+    "main.css": "/fortin-folio/static/css/main.05f368ff.css",
     "main.js": "/fortin-folio/static/js/main.78b977c2.js",
     "static/js/787.497f7a33.chunk.js": "/fortin-folio/static/js/787.497f7a33.chunk.js",
     "index.html": "/fortin-folio/index.html",
-    "main.e75782a1.css.map": "/fortin-folio/static/css/main.e75782a1.css.map",
+    "main.05f368ff.css.map": "/fortin-folio/static/css/main.05f368ff.css.map",
     "main.78b977c2.js.map": "/fortin-folio/static/js/main.78b977c2.js.map",
     "787.497f7a33.chunk.js.map": "/fortin-folio/static/js/787.497f7a33.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e75782a1.css",
+    "static/css/main.05f368ff.css",
     "static/js/main.78b977c2.js"
   ]
 }
