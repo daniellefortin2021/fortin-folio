@@ -4,6 +4,10 @@ import Project from '../Projects';
 import { Row } from 'react-bootstrap';
 
 import jsiImage from '../../images/JSI-home-page.jpeg';
+import fetchImage from "../../images/fetch-homepage.png";
+import boredImage from '../../images/bored-af.jpeg';
+import bantwanaImage from '../../images/bantwana-home-page.jpeg';
+import empoweredImage from '../../images/empowered-home-page.jpeg';
 
 function Portfolio (props) {
 
@@ -18,25 +22,25 @@ function Portfolio (props) {
             title: 'Fetch',
             description: 'website and brand design',
             link: 'https://intense-crag-43217.herokuapp.com/',
-            image: '../assets/fetch-homepage.png'
+            image: fetchImage
         },
         {
             title: 'BoredAF',
             description: 'website and brand design',
             link: 'https://zsvoboda87.github.io/Bored-AF/',
-            image: '../assets/fetch-homepage.png'
+            image: boredImage
         },
         {
             title: 'Bantwana Initiative',
             description: 'strategic communications and web management',
             link: 'www.bantwana.org',
-            image: '../assets/bantwana-home-page.jpeg'
+            image: bantwanaImage
         },
         {
             title: 'Empowered to Educate',
             description: 'brand and website design',
             link: 'https://www.empoweredtoeducate.org/',
-            image: './assets/empowered-home-page.jpeg'
+            image: empoweredImage
         }
     ];
 
