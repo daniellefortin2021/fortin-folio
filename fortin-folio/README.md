@@ -10,6 +10,7 @@ This is my single-page portfolio using React components and conditional renderin
 This app was built with React, JSX, CSS, and Bootstrap.
 
 ## Preview
+![screenshot of my portfolio homepage](./public/assets/react-portfolio.png)
 https://daniellefortin2021.github.io/fortin-folio/
 
 ## License
