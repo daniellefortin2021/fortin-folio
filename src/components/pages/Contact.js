@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Form, Button } from 'react-bootstrap';
 import { validateEmail } from '../../utils/helpers'
 
 function Contact() {
@@ -34,7 +33,7 @@ function Contact() {
     }
 
     return (
-        <section className="header">
+        <section className="contact">
             <h1>Contact me</h1>
             <form onSubmit={handleSubmit}>
                 <div>

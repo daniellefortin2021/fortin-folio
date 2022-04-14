@@ -35,7 +35,7 @@ function App() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-      <div>
+      <body>
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       <main>
         {renderPage()}
@@ -46,7 +46,7 @@ function App() {
         </div>
       </footer>
       </main>
-    </div >
+    </body >
   );
 }
 

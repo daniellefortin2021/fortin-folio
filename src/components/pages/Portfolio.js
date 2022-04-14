@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Project from '../Projects';
 
 import { Row } from 'react-bootstrap';
