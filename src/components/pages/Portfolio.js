@@ -22,7 +22,7 @@ function Portfolio (props) {
         {
             title: 'Curb Alert',
             description: 'website and brand design',
-            link: 'https://evening-lake-24716.herokuapp.com/',
+            link: 'https://powerful-basin-06230.herokuapp.com/',
             image: curbAlertImage
         },
         {
