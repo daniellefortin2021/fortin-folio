@@ -8,6 +8,7 @@ import fetchImage from "../../images/fetch-homepage.png";
 import boredImage from '../../images/bored-af.jpeg';
 import bantwanaImage from '../../images/bantwana-home-page.jpeg';
 import empoweredImage from '../../images/empowered-home-page.jpeg';
+import curbAlertImage from '../../images/curb-alert-screenshot.png';
 
 function Portfolio (props) {
 
@@ -17,6 +18,12 @@ function Portfolio (props) {
             description: 'website and social media manager | 2019 - current',
             link: 'https://jsi.com',
             image: jsiImage
+        },
+        {
+            title: 'Curb Alert',
+            description: 'website and brand design',
+            link: 'https://evening-lake-24716.herokuapp.com/',
+            image: curbAlertImage
         },
         {
             title: 'Fetch',
