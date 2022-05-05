@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/fortin-folio/static/css/main.ea86c723.css",
-    "main.js": "/fortin-folio/static/js/main.313ecef2.js",
+    "main.js": "/fortin-folio/static/js/main.b569f7d5.js",
     "static/js/787.497f7a33.chunk.js": "/fortin-folio/static/js/787.497f7a33.chunk.js",
     "static/media/fetch-homepage.png": "/fortin-folio/static/media/fetch-homepage.973898a9b2d2520e16ee.png",
     "static/media/curb-alert-screenshot.png": "/fortin-folio/static/media/curb-alert-screenshot.8726b5903871afdfef03.png",
@@ -11,11 +11,11 @@
     "static/media/bored-af.jpeg": "/fortin-folio/static/media/bored-af.5e9b97e30630294cbd2f.jpeg",
     "index.html": "/fortin-folio/index.html",
     "main.ea86c723.css.map": "/fortin-folio/static/css/main.ea86c723.css.map",
-    "main.313ecef2.js.map": "/fortin-folio/static/js/main.313ecef2.js.map",
+    "main.b569f7d5.js.map": "/fortin-folio/static/js/main.b569f7d5.js.map",
     "787.497f7a33.chunk.js.map": "/fortin-folio/static/js/787.497f7a33.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ea86c723.css",
-    "static/js/main.313ecef2.js"
+    "static/js/main.b569f7d5.js"
   ]
 }
