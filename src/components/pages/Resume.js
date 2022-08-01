@@ -11,9 +11,39 @@ function Resume() {
             <div>
                 <Row className="resume">
                     <Col sm={3}>
+                    <h4>Junior Wordpress Developer</h4>
+                    <h5><a id="resume-link" href="www.jsi.com">JSI</a></h5>
+                    <p>2022 - current</p>
+                    </Col>
+                    <Col sm={9}>
+                    <div>
+                        <ul>
+                            <li>Works closely with the marketing team to implement front-end and back-end changes to corporate websites.</li>
+                        </ul>
+                        <ul>
+                            <li>Manage inquiries and issues submitted by staff pertaining to the website and collaborate with the web services team to resolve outstanding issues and incorporate new changes and updates to the website.
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                            Supports the maintenance of various project focused websites.
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                            Designs and builds front-end websites for government-funded clients in the public and global health sectors.
+                            </li>
+                        </ul>
+                    </div>
+                    </Col>
+                </Row>
+            </div>
+            <div>
+                <Row className="resume">
+                    <Col sm={3}>
                     <h4>Website and Social Media Manager</h4>
                     <h5><a id="resume-link" href="www.jsi.com">JSI</a></h5>
-                    <p>2019 - current</p>
+                    <p>2019 - 2022</p>
                     </Col>
                     <Col sm={9}>
                     <div>
