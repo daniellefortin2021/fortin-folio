@@ -15,37 +15,37 @@ function Portfolio (props) {
     const projects = [
         {
             title: 'JSI',
-            description: 'website and social media manager | 2019 - current',
+            description: 'wordpress developer | 2019 - current',
             link: 'https://jsi.com',
             image: jsiImage
         },
         {
             title: 'Curb Alert',
-            description: 'website and brand design',
+            description: 'website and brand design | 2022',
             link: 'https://powerful-basin-06230.herokuapp.com/',
             image: curbAlertImage
         },
         {
             title: 'Fetch',
-            description: 'website and brand design',
+            description: 'website and brand design | 2022',
             link: 'https://intense-crag-43217.herokuapp.com/',
             image: fetchImage
         },
         {
             title: 'BoredAF',
-            description: 'website and brand design',
+            description: 'website and brand design | 2022',
             link: 'https://zsvoboda87.github.io/Bored-AF/',
             image: boredImage
         },
         {
             title: 'Bantwana Initiative',
-            description: 'strategic communications and web management',
+            description: 'strategic communications and web management | 2017 - 2019',
             link: 'www.bantwana.org',
             image: bantwanaImage
         },
         {
             title: 'Empowered to Educate',
-            description: 'brand and website design',
+            description: 'brand and website design | 2019',
             link: 'https://www.empoweredtoeducate.org/',
             image: empoweredImage
         }
